@@ -1,0 +1,22 @@
+
+
+.board{
+  display: flex;
+  position: relative;
+  width: 160px;
+  height: 160px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.box {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    background-color: #c7c7c7;
+    border: 1px solid #eee;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
